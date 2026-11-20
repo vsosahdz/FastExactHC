@@ -2,6 +2,7 @@
 #
 #   make            build the program ./bitmatrix and the shared library
 #   make test       check the program on the examples of the paper
+#   make test-fronts  check the program on fronts generated as in the experiments
 #   make run        run the program on the examples
 #   make clean      remove the build products
 #
@@ -24,7 +25,7 @@ else
     SHARED  := -shared
 endif
 
-.PHONY: all test run clean
+.PHONY: all test test-fronts run clean
 
 all: bitmatrix $(LIBRARY)
 
@@ -45,6 +46,20 @@ test: bitmatrix
 	check wfg-bitmatrix 4,4   examples/example_2d.txt 6 && \
 	check bitmatrix     4,4,4 examples/example_3d.txt 14.125 && \
 	check wfg-bitmatrix 4,4,4 examples/example_3d.txt 14.125
+
+# Fronts generated as in the experiments; each file stores its reference point and
+# the hypervolume obtained by all the methods (relative tolerance 1e-9).
+test-fronts: bitmatrix
+	@for file in examples/fronts/*.txt; do \
+	    reference=$$(sed -n 's/^# reference: //p' $$file); \
+	    expected=$$(sed -n 's/^# hypervolume: //p' $$file); \
+	    for method in bitmatrix wfg-bitmatrix; do \
+	        result=$$(./bitmatrix -m $$method -r $$reference $$file); \
+	        if awk -v a="$$result" -v b="$$expected" 'BEGIN { d = a - b; if (d < 0) d = -d; exit !(d <= 1e-9 * b) }'; \
+	        then echo "ok    $$method $$file: $$result"; \
+	        else echo "FAIL  $$method $$file: $$result (expected $$expected)"; exit 1; fi; \
+	    done; \
+	done
 
 run: bitmatrix
 	./bitmatrix -t -r 4,4 examples/example_2d.txt

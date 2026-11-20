@@ -24,6 +24,7 @@ valid for Linux. No external libraries are needed.
 ```bash
 make          # builds the program ./bitmatrix and the shared library
 make test     # checks both methods on the examples of the paper
+make test-fronts  # checks both methods on 14 fronts generated as in the experiments
 make run      # runs the examples and prints the computation time
 make clean    # removes the build products
 ```
@@ -60,6 +61,30 @@ time 0.000004 s (n=5, d=3, wfg-bitmatrix)
 For fronts with many objectives (about 13 or more), `wfg-bitmatrix` is usually
 the faster option; below that, both methods run the same bitmatrix engine.
 
+## Test fronts
+
+`examples/fronts/` contains 14 fronts generated exactly as in the experiments of
+the paper (same generator, seed, and reference point), so their hypervolume can be
+compared with the value recorded in `results/`:
+
+| File | Origin |
+|---|---|
+| `concave_*`, `linear_*` | statistical study (`results/05_estadistico_30_ejecuciones`), seed 0, `n` = 50 or 100, `d` = 5 to 12 |
+| `convex_*`, `inverted_linear_*`, `degenerate_*`, `disconnected_*`, `wfg1_*`, `dtlz2_population_*` | front geometries (`results/01_geometrias_13`), 200 generated points, `d` = 5 or 8 |
+
+The first lines of each file are comments with the origin, the reference point
+(`# reference:`), and the hypervolume obtained by all the methods
+(`# hypervolume:`); `expected.csv` lists the same data. The reference point is the
+nadir point plus 10% of the range of each objective. For example:
+
+```bash
+./bitmatrix -t -r $(sed -n 's/^# reference: //p' examples/fronts/concave_n50_d12.txt) \
+    examples/fronts/concave_n50_d12.txt
+```
+
+`make test-fronts` runs both methods on every file and checks the result with a
+relative tolerance of 1e-9.
+
 ## Using the library
 
 The functions take the points as a row-major array (`points[i * d + o]` is
@@ -87,6 +112,7 @@ shared library can be loaded with `ctypes`.
 | `src/hypervolume_c_wfg_imatrix.c` | wfg-bitmatrix (`hypervolume_c_wfg_imatrix`) |
 | `src/main.c` | command-line program |
 | `examples/` | the 2D and 3D examples of the paper (hypervolume 6 and 14.125 with `r = (4,4)` and `r = (4,4,4)`) |
+| `examples/fronts/` | test fronts generated as in the experiments, with their reference point and hypervolume |
 | `results/` | raw data of the experiments of the paper |
 
 Each source file includes the previous one, so a single translation unit
