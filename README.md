@@ -2,7 +2,8 @@
 
 Exact hypervolume computation by pivot partitioning with an inherited comparison
 matrix and pruned inclusion–exclusion. This repository contains the C code of the
-two exact methods of the paper and the raw data of the experiments.
+two exact methods of the paper, the raw data of the experiments, and a script that
+rebuilds the tables of the paper from that data (see [REPRODUCIBILITY.md](REPRODUCIBILITY.md)).
 
 - **bitmatrix**: pivot partitioning (as in QHV-II) with three exact improvements:
   a pruning rule for the inclusion–exclusion base case, a bitwise comparison
@@ -114,6 +115,8 @@ shared library can be loaded with `ctypes`.
 | `examples/` | the 2D and 3D examples of the paper (hypervolume 6 and 14.125 with `r = (4,4)` and `r = (4,4,4)`) |
 | `examples/fronts/` | test fronts generated as in the experiments, with their reference point and hypervolume |
 | `results/` | raw data of the experiments of the paper |
+| `scripts/make_tables.py` | rebuilds the tables of the paper from `results/` (needs NumPy and SciPy, see `scripts/requirements.txt`) |
+| `REPRODUCIBILITY.md` | how the experiments were run, what each file in `results/` contains, and which table it feeds |
 
 Each source file includes the previous one, so a single translation unit
 (`src/main.c` or `src/hypervolume_c_wfg_imatrix.c`) builds everything.
