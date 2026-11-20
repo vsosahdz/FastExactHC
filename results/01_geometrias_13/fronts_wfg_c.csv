@@ -1,0 +1,118 @@
+instance,kind,description,points,objectives,front_size,method,status,seconds,hv,reference_method,relative_error,standard_error
+lineal,frente,DTLZ1 / simplex,200,3,200,wfg_c,ok,0.000252,0.850461309415741,wfg_c,0.0,nan
+lineal,frente,DTLZ1 / simplex,200,5,200,wfg_c,ok,0.00493,0.30490314296571364,wfg_c,0.0,nan
+lineal,frente,DTLZ1 / simplex,200,8,200,wfg_c,ok,0.742003,0.02050085976977939,wfg_c,0.0,nan
+lineal,frente,DTLZ1 / simplex,200,10,200,wfg_c,timeout,nan,nan,,nan,nan
+lineal,frente,DTLZ1 / simplex,200,12,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal,frente,DTLZ1 / simplex,200,14,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal,frente,DTLZ1 / simplex,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal,frente,DTLZ1 / simplex,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal,frente,DTLZ1 / simplex,200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo,frente,DTLZ2-4 / esfera,200,3,200,wfg_c,ok,0.000257,0.7026973172907484,wfg_c,0.0,nan
+concavo,frente,DTLZ2-4 / esfera,200,5,200,wfg_c,ok,0.004979,0.8083114955500451,wfg_c,0.0,nan
+concavo,frente,DTLZ2-4 / esfera,200,8,200,wfg_c,ok,0.851925,0.36953702050223847,wfg_c,0.0,nan
+concavo,frente,DTLZ2-4 / esfera,200,10,200,wfg_c,timeout,nan,nan,,nan,nan
+concavo,frente,DTLZ2-4 / esfera,200,12,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo,frente,DTLZ2-4 / esfera,200,14,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo,frente,DTLZ2-4 / esfera,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo,frente,DTLZ2-4 / esfera,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo,frente,DTLZ2-4 / esfera,200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+convexo,frente,DTLZ2 convexo,200,3,200,wfg_c,ok,0.000207,0.7151836025955929,wfg_c,0.0,nan
+convexo,frente,DTLZ2 convexo,200,5,200,wfg_c,ok,0.001904,0.19431863123922885,wfg_c,0.0,nan
+convexo,frente,DTLZ2 convexo,200,8,200,wfg_c,ok,0.055216,0.007604475477020272,wfg_c,0.0,nan
+convexo,frente,DTLZ2 convexo,200,10,200,wfg_c,ok,0.896687,0.0004191023666389707,wfg_c,0.0,nan
+convexo,frente,DTLZ2 convexo,200,12,200,wfg_c,ok,5.921246,2.3957593572548177e-05,wfg_c,0.0,nan
+convexo,frente,DTLZ2 convexo,200,14,200,wfg_c,timeout,nan,nan,,nan,nan
+convexo,frente,DTLZ2 convexo,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+convexo,frente,DTLZ2 convexo,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+convexo,frente,DTLZ2 convexo,200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,3,200,wfg_c,ok,0.000229,0.28205178723980884,wfg_c,0.0,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,5,200,wfg_c,ok,0.002489,0.012828870767337925,wfg_c,0.0,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,8,200,wfg_c,ok,0.094376,1.5355059404776523e-05,wfg_c,0.0,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,10,200,wfg_c,ok,1.206938,7.190764843103952e-08,wfg_c,0.0,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,12,200,wfg_c,timeout,nan,nan,,nan,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,14,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+lineal_invertido,frente,MaF1 / IDTLZ1,200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,3,200,wfg_c,ok,0.000225,5.706563216995772,wfg_c,0.0,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,5,200,wfg_c,ok,0.003261,774.4923409706648,wfg_c,0.0,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,8,200,wfg_c,ok,0.760989,68333035.43511102,wfg_c,0.0,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,10,200,wfg_c,timeout,nan,nan,,nan,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,12,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,14,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+concavo_escalado,frente,MaF4-5 / mal escalado (2^i),200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+degenerado,frente,DTLZ5 / MaF6,200,3,200,wfg_c,ok,8.1e-05,0.13240423777742014,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,5,200,wfg_c,ok,0.000124,0.008950962646195337,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,8,200,wfg_c,ok,0.000179,1.7665131666214763e-05,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,10,200,wfg_c,ok,0.000187,5.1809133257989855e-08,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,12,200,wfg_c,ok,0.000224,3.958840641661815e-11,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,14,200,wfg_c,ok,0.000257,8.319015148258934e-15,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,16,200,wfg_c,ok,0.000296,4.949661807258047e-19,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,18,200,wfg_c,ok,0.000304,6.426737875088708e-24,wfg_c,0.0,nan
+degenerado,frente,DTLZ5 / MaF6,200,20,200,wfg_c,ok,0.000347,2.025190083731682e-29,wfg_c,0.0,nan
+desconectado,frente,DTLZ7 / MaF7,200,3,92,wfg_c,ok,5.4e-05,1.8251344853458211,wfg_c,0.0,nan
+desconectado,frente,DTLZ7 / MaF7,200,5,157,wfg_c,ok,0.001092,3.2658568552666765,wfg_c,0.0,nan
+desconectado,frente,DTLZ7 / MaF7,200,8,196,wfg_c,ok,0.108509,2.69704384446104,wfg_c,0.0,nan
+desconectado,frente,DTLZ7 / MaF7,200,10,200,wfg_c,ok,2.772938,1.7383335460563216,wfg_c,0.0,nan
+desconectado,frente,DTLZ7 / MaF7,200,12,200,wfg_c,timeout,nan,nan,,nan,nan
+desconectado,frente,DTLZ7 / MaF7,200,14,200,wfg_c,skipped,nan,nan,,nan,nan
+desconectado,frente,DTLZ7 / MaF7,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+desconectado,frente,DTLZ7 / MaF7,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+desconectado,frente,DTLZ7 / MaF7,200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+wfg1,frente,WFG1 mixto,200,3,200,wfg_c,ok,0.000219,0.0024010816371148017,wfg_c,0.0,nan
+wfg1,frente,WFG1 mixto,200,5,200,wfg_c,ok,0.00311,9.601450985419124e-06,wfg_c,0.0,nan
+wfg1,frente,WFG1 mixto,200,8,200,wfg_c,ok,0.328041,1.282892762106666e-08,wfg_c,0.0,nan
+wfg1,frente,WFG1 mixto,200,10,200,wfg_c,ok,6.17408,2.9756959100000886e-10,wfg_c,0.0,nan
+wfg1,frente,WFG1 mixto,200,12,200,wfg_c,timeout,nan,nan,,nan,nan
+wfg1,frente,WFG1 mixto,200,14,200,wfg_c,skipped,nan,nan,,nan,nan
+wfg1,frente,WFG1 mixto,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+wfg1,frente,WFG1 mixto,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+wfg1,frente,WFG1 mixto,200,20,200,wfg_c,skipped,nan,nan,,nan,nan
+wfg2,frente,WFG2 desconectado,200,3,72,wfg_c,ok,5.1e-05,14.73053502861649,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,5,103,wfg_c,ok,0.000401,5.524127544070049,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,8,120,wfg_c,ok,0.002242,0.00463187623132835,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,10,119,wfg_c,ok,0.00659,2.0373556501607833e-05,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,12,115,wfg_c,ok,0.010599,5.1150626393932506e-11,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,14,132,wfg_c,ok,0.02061,1.411975437289144e-20,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,16,137,wfg_c,ok,0.055991,5.895820477049533e-27,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,18,141,wfg_c,ok,0.104361,7.700089576252656e-31,wfg_c,0.0,nan
+wfg2,frente,WFG2 desconectado,200,20,155,wfg_c,ok,0.399285,1.0371106645508138e-57,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,3,200,wfg_c,ok,9.1e-05,4.3279790874989486,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,5,200,wfg_c,ok,0.000122,2.8620278780449664,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,8,200,wfg_c,ok,0.000183,0.013865049580059186,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,10,200,wfg_c,ok,0.000187,5.94726247188472e-05,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,12,200,wfg_c,ok,0.000229,1.5708092878661585e-08,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,14,200,wfg_c,ok,0.000262,1.3043280372189693e-13,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,16,200,wfg_c,ok,0.000297,7.222200337680512e-19,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,18,200,wfg_c,ok,0.000458,4.805866235409618e-26,wfg_c,0.0,nan
+wfg3,frente,WFG3 lineal degenerado,200,20,200,wfg_c,ok,0.000346,9.932442504379041e-34,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,3,21,wfg_c,ok,7e-06,27462357.243491065,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,5,55,wfg_c,ok,9.1e-05,1685974602700.8137,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,8,60,wfg_c,ok,0.00026,3.2735339046223424e+16,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,10,91,wfg_c,ok,0.000814,5.144835124373512e+18,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,12,112,wfg_c,ok,0.007638,1.2350439304788519e+19,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,14,140,wfg_c,ok,0.039951,1.047523018805673e+20,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,16,114,wfg_c,ok,0.004004,1.2637811104139525e+17,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,18,104,wfg_c,ok,0.01286,8622097338289637.0,wfg_c,0.0,nan
+dtlz1_poblacion,poblacion,DTLZ1 aleatorio,200,20,104,wfg_c,ok,0.099585,7948031949316.103,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,3,53,wfg_c,ok,2.7e-05,8.745428293998675,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,5,95,wfg_c,ok,0.000459,39.176186270505895,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,8,130,wfg_c,ok,0.004062,42.93442246500265,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,10,129,wfg_c,ok,0.008614,18.605071424687676,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,12,97,wfg_c,ok,0.002226,0.2282870436070603,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,14,140,wfg_c,ok,0.058248,0.1261871074850553,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,16,144,wfg_c,ok,0.020059,0.0007332501808268274,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,18,145,wfg_c,ok,0.087306,2.5944142681394094e-11,wfg_c,0.0,nan
+dtlz2_poblacion,poblacion,DTLZ2 aleatorio,200,20,125,wfg_c,ok,0.037224,8.956230891688145e-11,wfg_c,0.0,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,3,26,wfg_c,ok,9e-06,6.497052706470146,wfg_c,0.0,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,5,101,wfg_c,ok,0.000488,16.16911246918741,wfg_c,0.0,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,8,154,wfg_c,ok,0.020644,11.875326104805152,wfg_c,0.0,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,10,177,wfg_c,ok,0.247961,14.075372181245498,wfg_c,0.0,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,12,196,wfg_c,ok,3.449334,6.090083199668287,wfg_c,0.0,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,14,200,wfg_c,timeout,nan,nan,,nan,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,16,200,wfg_c,skipped,nan,nan,,nan,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,18,200,wfg_c,skipped,nan,nan,,nan,nan
+dtlz7_poblacion,poblacion,DTLZ7 aleatorio,200,20,200,wfg_c,skipped,nan,nan,,nan,nan

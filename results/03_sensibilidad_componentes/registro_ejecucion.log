@@ -1,0 +1,44 @@
+
+concavo (DTLZ2-4 / esfera)
+obj | frente |            base |           +poda |         +filtro |          +orden | +matriz=imatrix |    imatrix-poda |  imatrix-filtro |   imatrix-orden |  imatrix-matriz | imatrix_ciclico | max_dif
+  5 |    200 |   0.0040s     4k |   0.0020s     4k |   0.0049s     1k |   0.0041s     1k |   0.0022s     1k |   0.0192s     1k |   0.0018s     2k |   0.0021s     1k |   0.0043s     1k |   0.0019s     1k | 2e-16
+  8 |    200 |   0.5374s   489k |   0.2560s   489k |   0.4189s   145k |   0.3409s    97k |   0.2026s    97k |   1.7165s    97k |   0.1982s   114k |   0.2634s   145k |   0.3425s    97k |   0.1916s   102k | 3e-16
+ 10 |    200 |             10+ |   7.3483s 12007k |   9.8057s  2937k |   6.7114s  1519k |   4.7420s  1519k |             10+ |   4.4769s  1684k |   6.7763s  2937k |   6.7011s  1519k |   4.8542s  1774k | 1e-16
+ 12 |    200 |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ | -
+
+lineal (DTLZ1 / simplex)
+obj | frente |            base |           +poda |         +filtro |          +orden | +matriz=imatrix |    imatrix-poda |  imatrix-filtro |   imatrix-orden |  imatrix-matriz | imatrix_ciclico | max_dif
+  5 |    200 |   0.0035s     4k |   0.0016s     4k |   0.0039s     2k |   0.0052s     1k |   0.0022s     1k |   0.0188s     1k |   0.0021s     2k |   0.0021s     2k |   0.0052s     1k |   0.0019s     1k | 0e+00
+  8 |    200 |   0.5030s   432k |   0.2315s   432k |   0.3734s   129k |   0.2876s    79k |   0.1694s    79k |   1.4725s    79k |   0.1581s    91k |   0.2317s   129k |   0.2830s    79k |   0.1695s    88k | 1e-16
+ 10 |    200 |             10+ |   5.0865s  8223k |   6.6874s  1912k |   5.2266s  1117k |   3.6839s  1117k |             10+ |   3.5163s  1229k |   4.6820s  1912k |   5.4461s  1117k |   3.5342s  1237k | 3e-16
+ 12 |    200 |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ | -
+
+lineal_invertido (MaF1 / IDTLZ1)
+obj | frente |            base |           +poda |         +filtro |          +orden | +matriz=imatrix |    imatrix-poda |  imatrix-filtro |   imatrix-orden |  imatrix-matriz | imatrix_ciclico | max_dif
+  5 |    200 |   0.0024s     2k |   0.0011s     2k |   0.0023s     1k |   0.0020s     1k |   0.0012s     1k |   0.0082s     1k |   0.0010s     1k |   0.0011s     1k |   0.0021s     1k |   0.0010s     1k | 1e-16
+  8 |    200 |   0.0869s    69k |   0.0383s    69k |   0.0569s    19k |   0.0413s    11k |   0.0239s    11k |   0.2159s    11k |   0.0225s    13k |   0.0318s    19k |   0.0414s    11k |   0.0250s    13k | 2e-16
+ 10 |    200 |   1.0222s   702k |   0.4657s   702k |   0.5352s   158k |   0.3623s    83k |   0.2346s    83k |   2.0010s    83k |   0.2150s    93k |   0.3386s   158k |   0.3520s    83k |   0.2723s   112k | 0e+00
+ 12 |    200 |             10+ |   7.9561s 10849k |   8.7274s  1970k |   4.1729s   730k |   2.9119s   730k |             10+ |   2.9274s   800k |   5.7616s  1970k |   4.1513s   730k |   4.2168s  1296k | 1e-16
+
+desconectado (DTLZ7 / MaF7)
+obj | frente |            base |           +poda |         +filtro |          +orden | +matriz=imatrix |    imatrix-poda |  imatrix-filtro |   imatrix-orden |  imatrix-matriz | imatrix_ciclico | max_dif
+  5 |    161 |   0.0014s     1k |   0.0007s     1k |   0.0018s     0k |   0.0019s     0k |   0.0009s     0k |   0.0067s     0k |   0.0008s     1k |   0.0008s     0k |   0.0018s     0k |   0.0008s     0k | 0e+00
+  8 |    197 |   0.0836s    64k |   0.0388s    64k |   0.0568s    18k |   0.0470s    12k |   0.0251s    12k |   0.2402s    12k |   0.0242s    15k |   0.0310s    18k |   0.0440s    12k |   0.0268s    14k | 0e+00
+ 10 |    200 |   1.9116s  1361k |   0.9118s  1361k |   1.0310s   296k |   0.5752s   128k |   0.3762s   128k |   3.1006s   128k |   0.3570s   140k |   0.7190s   296k |   0.5738s   128k |   0.4378s   170k | 0e+00
+ 12 |    200 |             10+ |             10+ |             10+ |   7.8579s  1334k |   5.5795s  1334k |             10+ |   5.3726s  1434k |   8.2074s  2554k |   7.8346s  1334k |   6.1456s  1699k | 3e-16
+
+wfg1 (WFG1 mixto)
+obj | frente |            base |           +poda |         +filtro |          +orden | +matriz=imatrix |    imatrix-poda |  imatrix-filtro |   imatrix-orden |  imatrix-matriz | imatrix_ciclico | max_dif
+  5 |    200 |   0.0040s     4k |   0.0019s     4k |   0.0050s     1k |   0.0048s     1k |   0.0021s     1k |   0.0184s     1k |   0.0020s     2k |   0.0021s     1k |   0.0046s     1k |   0.0021s     1k | 2e-16
+  8 |    200 |   0.2617s   206k |   0.1156s   206k |   0.1875s    60k |   0.1598s    42k |   0.0900s    42k |   0.8365s    42k |   0.0823s    50k |   0.1044s    60k |   0.1603s    42k |   0.1082s    58k | 0e+00
+ 10 |    200 |   4.2001s  2912k |   1.8803s  2912k |   2.4588s   671k |   1.9849s   429k |   1.2951s   429k |             10+ |   1.1929s   491k |   1.6001s   671k |   1.9751s   429k |   1.6624s   651k | 0e+00
+ 12 |    200 |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ |             10+ | -
+
+dtlz2_poblacion (DTLZ2 aleatorio)
+obj | frente |            base |           +poda |         +filtro |          +orden | +matriz=imatrix |    imatrix-poda |  imatrix-filtro |   imatrix-orden |  imatrix-matriz | imatrix_ciclico | max_dif
+  5 |    107 |   0.0009s     1k |   0.0004s     1k |   0.0011s     0k |   0.0008s     0k |   0.0004s     0k |   0.0033s     0k |   0.0003s     0k |   0.0004s     0k |   0.0008s     0k |   0.0003s     0k | 1e-16
+  8 |    124 |   0.0042s     3k |   0.0018s     3k |   0.0033s     1k |   0.0023s     1k |   0.0012s     1k |   0.0109s     1k |   0.0011s     1k |   0.0016s     1k |   0.0025s     1k |   0.0010s     1k | 2e-16
+ 10 |    136 |   0.0067s     4k |   0.0030s     4k |   0.0038s     1k |   0.0029s     1k |   0.0018s     1k |   0.0166s     1k |   0.0019s     1k |   0.0022s     1k |   0.0030s     1k |   0.0021s     1k | 1e-16
+ 12 |    145 |   0.1105s    71k |   0.0468s    71k |   0.0503s    14k |   0.0307s     6k |   0.0191s     6k |   0.1624s     6k |   0.0182s     9k |   0.0327s    14k |   0.0305s     6k |   0.0212s     8k | 0e+00
+
+saved=ablation_results.csv rows=240
