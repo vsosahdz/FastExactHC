@@ -1,5 +1,7 @@
 # FastExactHC
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24387368.svg)](https://doi.org/10.5281/zenodo.24387368)
+
 Exact hypervolume computation by pivot partitioning with an inherited comparison
 matrix and pruned inclusion–exclusion. This repository contains the C code of the
 two exact methods of the paper, the raw data of the experiments, and a script that

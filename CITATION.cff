@@ -3,6 +3,14 @@ message: "If you use this software, please cite the article in preferred-citatio
 title: "FastExactHC: exact hypervolume by pivot partitioning with an inherited comparison matrix and pruned inclusion-exclusion"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.24387368
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24387368
+    description: "Zenodo archive, all versions"
+  - type: doi
+    value: 10.5281/zenodo.24387369
+    description: "Zenodo archive of version v1.0.0"
 license: MIT
 repository-code: "https://github.com/vsosahdz/FastExactHC"
 keywords:
