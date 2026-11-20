@@ -135,3 +135,15 @@ the environment, and the command used.
 | `04_estadistico_10_ejecuciones` | statistical study, 10 runs per combination |
 | `05_estadistico_30_ejecuciones` | statistical study, 30 runs per combination (main results) |
 
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the mapping between these files and the
+tables of the paper, and `scripts/make_tables.py` to rebuild the tables.
+
+## License
+
+MIT; see [LICENSE](LICENSE).
+
+## Citing
+
+If you use this code, please cite the accompanying article; [CITATION.cff](CITATION.cff)
+has the reference, and GitHub shows it under "Cite this repository".
+

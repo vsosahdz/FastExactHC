@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article in preferred-citation."
+title: "FastExactHC: exact hypervolume by pivot partitioning with an inherited comparison matrix and pruned inclusion-exclusion"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/vsosahdz/FastExactHC"
+keywords:
+  - hypervolume
+  - exact algorithms
+  - multiobjective optimization
+  - inclusion-exclusion
+  - pivot partitioning
+authors:
+  - family-names: Manoatl
+    given-names: Edgar
+    affiliation: "Tecnologico de Monterrey, School of Engineering and Sciences"
+  - family-names: Sosa Hernández
+    given-names: Víctor Adrián
+    affiliation: "Tecnologico de Monterrey, School of Engineering and Sciences"
+  - family-names: Coello Coello
+    given-names: Carlos A.
+    affiliation: "CINVESTAV-IPN, Department of Computer Science"
+preferred-citation:
+  type: article
+  status: submitted
+  title: "Fast Exact Hypervolume Computation by Pivot Partitioning with an Inherited Comparison Matrix and Pruned Inclusion-Exclusion"
+  year: 2026
+  authors:
+    - family-names: Manoatl
+      given-names: Edgar
+    - family-names: Sosa Hernández
+      given-names: Víctor Adrián
+    - family-names: Coello Coello
+      given-names: Carlos A.
