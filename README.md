@@ -123,9 +123,10 @@ Each source file includes the previous one, so a single translation unit
 
 ## Experimental results
 
-The folder `results/` contains the raw data, without processing, of all the runs
-reported in the paper; `results/README.md` (in Spanish) describes each experiment,
-the environment, and the command used.
+The folder `results/` contains the raw data, without processing, of the runs
+reported in the paper (all except the 1000-point DTLZ2 population table);
+`results/README.md` (in Spanish) describes each experiment, its files and columns,
+the status codes, and the environment.
 
 | Folder | Experiment |
 |---|---|
